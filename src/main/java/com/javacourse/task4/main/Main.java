@@ -60,7 +60,7 @@ public class Main {
            }
        }
 
-//  ======================= 'deleteSentenceCountOfSmallWords' method check
+        //  ======================= 'deleteSentenceCountOfSmallWords' method check
         List<TextComponent> sentence4 = findSentences(result1);
         logger.info("Sentences into the text " + sentence4);
         String newDocument = sentence4.stream()
@@ -72,7 +72,7 @@ public class Main {
 
 
 
-    //  /* ======================= 'sortParagraph' method check
+        //  ======================= 'sortParagraph' method check
         FileTextParser fileTextParser1 = new FileTextParser();
         TextComponent fileComposit = fileTextParser1.parse(result1.toString());
         List<TextComponent> paragraphs = fileComposit.getList();
